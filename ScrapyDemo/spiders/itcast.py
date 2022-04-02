@@ -19,5 +19,5 @@ class ItcastSpider(scrapy.Spider):
             item['title'] = title
             item['info'] = info
             items.append(item)
-        print("------------------------------------------------------------------------")
+        print("----------------------------------------------------------------------------")
         return items
